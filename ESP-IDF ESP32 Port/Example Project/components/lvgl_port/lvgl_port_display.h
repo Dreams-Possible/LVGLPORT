@@ -5,10 +5,10 @@
 
 //include
 #include"lvgl/lvgl.h"
-//#include"screen_driver.h"
+#include"ili9341_driver.h"
 
 //lvgl port display init
-void lvgl_port_display_init();
+uint8_t lvgl_port_display_init();
 
 #endif//#ifndef LVGL_PORT_DISPLAY_H
 #endif//#if 1
